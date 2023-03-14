@@ -1,0 +1,55 @@
+/*
+Carter Childress
+Last Updated: 3/9/23 2:31am
+*/
+body{
+    margin: 0px;
+    font-family: 'Golos Text', sans-serif;
+}
+
+header{
+    position: fixed;
+    top: 0px;
+    display: block;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+
+    background-color: #233E90;
+    border-bottom: 10px solid #132B7D;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+header h2{
+    color: #F4F4F4;
+    display: block;
+    position: absolute;
+
+    margin-left: 39.9%;
+}
+header a{
+    color: #F4F4F4;
+    text-decoration: none;
+    position: absolute;
+    display: block;
+    white-space: nowrap;
+
+    margin-left: 85%;
+}
+main{
+    display: flex;
+    justify-content: space-around;
+}
+
+#leaderboard{
+    background-color: #474747;
+    border: 10px solid #131313;
+    border-radius: 25px;
+    padding-top: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 225px;
+
+    height: 500px;
+    color: #F4F4F4;
+}
