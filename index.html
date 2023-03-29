@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!--
+    ***
+    Carter Childress
+    Last Updated: 3/29/23 1:01am
+    ***
+  -->
+  <head>
+    <link rel="icon" href="./images/wildcat-blue-transparent.png" />
+    <link rel="stylesheet" href="/dist/output.css">
+    <link href="https://fonts.googleapis.com/css2?family=Golos+Text&display=swap" rel="stylesheet">
+
+    <!--
+      ***
+      Really important that the following code is put into the tailwind theme in the tailwind.config.js file
+
+      fontFamily: {
+      'serif': ['Golos\\ Text'],
+    }
+
+      ***
+     -->
+    <title>DRHS Library Trivia Scoreboard</title>
+  </head>
+
+
+  <body class="m-0 font-serif">
+    <!--The header-->
+    <header class="fixed block w-full h-[75px] text-center bg-[#233E90] rounded-br-[5px] rounded-bl-[5px] border-b-[10px] border-b-[#132B7D] border-solid top-0">
+      <h2 class="text-[#F4F4F4] block absolute mt-[20px] ml-[39.9%] text-2xl font-semibold">Deep Run Library Trivia Scoreboard</h2>
+      <a class="text-[#F4F4F4] no-underline absolute block whitespace-nowrap mt-[20px] ml-[85%] text-2xl font-semibold" href="./index.html"><h2>Sign In</h2></a>
+    </header>
+    
+
+    <main class="flex justify-around">
+      <!--The main leaderboard-->
+      <div id="leaderboard" class="bg-[#474747] h-[500px] w-[350px] text-[#F4F4F4] m-[225px] pt-px px-2.5 rounded-[25px] border-[10px] border-solid border-[#131313]">
+        <h1 class="mt-[5px] ml-[65px] text-3xl font-bold">Leaderboard</h1>
+        <p>--Placeholder</p>
+        <div id="scoreboard"></div>
+      </div>
+    </main>
+  </body>
+</html>
